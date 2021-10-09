@@ -46,16 +46,16 @@
 }
 
 .btn-primary {
-  background-color: $primary-color;
+  background-color: #000000;
   color: $white;
-  border-color: $primary-color;
+  border-color: #000000;
 
   &:active,
   &:hover,
   &.focus,
   &.active {
-    background-color: $primary-color !important;
-    border-color: $primary-color !important;
+    background-color: #000000 !important;
+    border-color: #000000 !important;
   }
 }
 
@@ -69,16 +69,16 @@
   &.focus,
   &.active {
     background-color: transparent !important;
-    border-color: $primary-color !important;
-    color: $primary-color;
+    border-color: #000000 !important;
+    color: #000000;
   }
   &::before{
-    border-color: $primary-color;
+    border-color: #000000;
   }
 }
 
 .btn-link {
-  color: $primary-color;
+  color: #000000;
 
   i,
   svg {
